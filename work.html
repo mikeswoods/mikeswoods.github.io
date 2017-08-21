@@ -1,114 +1,84 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <title>Mike Woods</title>
     <meta name="author" content="mike Woods">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
     <!--[if lt IE 9]>
     <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    </head>
-    <style type="text/css">
-        * {
-            font-family: 'Montserrat', Helvetica, Georgia, Times, serif;
-        }
-        #profile-image img {
-            border: 1px solid #cdcdcd;
-            padding: 2px;
-        }
-    </style>
-    <body>
-        <div class="container">
-            <div class="page-header">
-                <h1>Mike Woods</h1>
-            </div>
-            <div class="row">
-                <div id="profile-image" class="col-md-3">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a href="index.html"><img src="profile.jpg"/></a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <br>
-                        <div class="col-md-12">
-                            <address>
-                                <strong>San Francsico, CA</strong><br>
-                                mikeswoods`@`gmail.com<br>
-                            </address>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img width="260" height="260" src="https://camo.githubusercontent.com/d56814a31b0d5325862f9105bebb4b7cdc76494a/687474703a2f2f692e696d6775722e636f6d2f345066377245612e676966"/>
-                        <p>
-                          <a href="https://github.com/mikeswoods/perlin-noise-explained">Perlin Noise Explained</a> + 
-                          <a href="https://www.shadertoy.com/view/XscGzl">A ShaderToy experiment</a>
-                        </p>
-                      </div>
-                      <div class="col-md-6">
-                      </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe src="https://player.vimeo.com/video/126096018" width="360" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>Incompressible fluid simulation, based off the paper <a href="http://mmacklin.com/pbf_sig_preprint.pdf">Position Based Fluids</a> by Miles Macklin and Matthias Müller-Fischer. <a href="https://drive.google.com/file/d/0B9KwVUTopk8ScXJmZFpnZF81Q3M/view">Presentation</a></p>
-                        </div>
-                        <div class="col-md-6">
-                            <a target="blank_" href="http://www.taylorcaputo.com/#!phl-sfo: Dichroic Acrylic, Electroluminescent Panels, ABS plastic,  Microcontroller, 2015/zoom/c1kzm/c1a6t"><img height="300" src="https://static.wixstatic.com/media/643f22_510d663fe4cf47a09a39e225704288d9.jpg/v1/fit/w_1200,h_982,q_90,usm_0.66_1.00_0.01/643f22_510d663fe4cf47a09a39e225704288d9.jpg"></a>
-                            <p><em>phl-sfo</em>, in collaboration with <a href="http://www.taylorcaputo.com/#!about/c1cg4">Taylor Caputo</a>. Microcontroller programming</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe src="https://player.vimeo.com/video/123882574" width="360" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>A semi-Lagrangian fluid simulation based off of the <a href="https://www.cs.ubc.ca/~rbridson/fluidsimulation/fluids_notes.pdf">SIGGRAPH 2007 course notes</a> by Robert Bridson and Matthias Müller-Fischer</p>
-                        </div>
-                        <div class="col-md-6">
-                            <iframe src="https://player.vimeo.com/video/123003423" width="360" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>Cloth/sphere collision simulation based on the paper <a href="http://matthias-mueller-fischer.ch/publications/posBasedDyn.pdf">Position Based Dynamics</a> by Matthias Müller, Bruno Heidelberger, Marcus Hennix, John Ratcliff, 2006</p>
-                        </div>
-                    </div>
-                    <div><div class="row"><div class="col-md-12"><hr/></div></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe src="https://player.vimeo.com/video/120419607" width="360" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>Rigid body simulation based on the paper <br/> <a target="_blank" href="http://graphics.stanford.edu/papers/rigid_bodies-sig03/">Nonconvex Rigid Bodies with Stacking</a></p>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="files/athena.png"><img width="360" height="360" src="files/athena.png"></a>
-                        </div>
-                    </div>
-                    <div><div class="row"><div class="col-md-12"><hr/></div></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="files/obama.jpg"><img width="360" height="440" src="files/obama.jpg"></a>
-                            <p>President as Emoji</a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="files/team.png"><img width="360" height="250" src="files/team.png"></a>
-                            <p>Automatic face replacement based on the paper <br/>
-                                <a target="_blank" href="http://www.ics.uci.edu/~xzhu/face/">Face Detection, Pose Estimation and Landmark Localization in the Wild</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div><div class="row"><div class="col-md-12"><hr/></div></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe src="https://player.vimeo.com/video/122570720" width="360" height="300"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>Face morphing via Delaunay triangulation</p>
-                        </div>
-                        <div class="col-md-6">
-                            <!-- BLANK -->
-                        </div>
-                    </div>  
-                </div>
-            </div>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Mike Woods</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <address>
+            <p class="pop">San Francisco, CA</p>
+            <p>mikeswoods at gmail.com</p>
+          </address>
         </div>
-    </body>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-4">
+            <img width="260" src="https://camo.githubusercontent.com/d56814a31b0d5325862f9105bebb4b7cdc76494a/687474703a2f2f692e696d6775722e636f6d2f345066377245612e676966"/>
+            <p>
+              <a href="https://github.com/mikeswoods/perlin-noise-explained">Perlin Noise Explained</a> +
+              <a href="https://www.shadertoy.com/view/XscGzl">A ShaderToy experiment</a>
+            </p>
+            </div>
+            <div class="col-md-4">
+              <iframe src="https://player.vimeo.com/video/122570720" width="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <p>Face morphing with Delaunay triangulation</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <iframe src="https://player.vimeo.com/video/126096018" width="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <p>Incompressible fluid simulation, based off <a href="http://mmacklin.com/pbf_sig_preprint.pdf">Position Based Fluids</a> by Miles Macklin and Matthias Müller-Fischer. <a href="https://drive.google.com/file/d/0B9KwVUTopk8ScXJmZFpnZF81Q3M/view">Presentation</a></p>
+            </div>
+            <div class="col-md-4">
+              <a target="blank_" href="http://www.taylorcaputo.com/#!phl-sfo: Dichroic Acrylic, Electroluminescent Panels, ABS plastic,  Microcontroller, 2015/zoom/c1kzm/c1a6t"><img height="300" src="https://static.wixstatic.com/media/643f22_510d663fe4cf47a09a39e225704288d9.jpg/v1/fit/w_1200,h_982,q_90,usm_0.66_1.00_0.01/643f22_510d663fe4cf47a09a39e225704288d9.jpg"></a>
+              <p><em>phl-sfo</em>, in collaboration with <a href="http://www.taylorcaputo.com/#!about/c1cg4">Taylor Caputo</a>. Microcontroller programming</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <iframe src="https://player.vimeo.com/video/123882574" width="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <p>A semi-Lagrangian fluid simulation based off of the <a href="https://www.cs.ubc.ca/~rbridson/fluidsimulation/fluids_notes.pdf">SIGGRAPH 2007 course notes</a> by Robert Bridson and Matthias Müller-Fischer</p>
+            </div>
+            <div class="col-md-4">
+              <iframe src="https://player.vimeo.com/video/123003423" width="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <p>Cloth/sphere collision simulation based on <a href="http://matthias-mueller-fischer.ch/publications/posBasedDyn.pdf">Position Based Dynamics</a> by Matthias Müller, Bruno Heidelberger, Marcus Hennix, John Ratcliff, 2006</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <iframe src="https://player.vimeo.com/video/120419607" width="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <p>Rigid body simulation based on <a target="_blank" href="http://graphics.stanford.edu/papers/rigid_bodies-sig03/">Nonconvex Rigid Bodies with Stacking</a></p>
+            </div>
+            <div class="col-md-4">
+              <a href="files/athena.png"><img width="260" src="files/athena.png"></a>
+              <p>A simple raytracer</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="files/obama.jpg"><img width="260" src="files/obama.jpg"></a>
+              <p>President as Emoji</p>
+            </div>
+            <div class="col-md-4">
+              <a href="files/team.png"><img width="260" src="files/team.png"></a>
+              <p>Automatic face replacement based on <a target="_blank" href="http://www.ics.uci.edu/~xzhu/face/">Face Detection, Pose Estimation and Landmark Localization in the Wild</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

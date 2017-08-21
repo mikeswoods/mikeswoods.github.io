@@ -1,0 +1,42 @@
+* {
+  font-family: Helvetica;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  text-decoration: underline;
+}
+
+.pop {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a {
+  color: #000000;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+a:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+/*a:visited {
+  color: #cccccc;
+}*/
+
+ul#links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#links li {
+  padding: 0.5em 0;
+}
