@@ -6,8 +6,7 @@ San Francisco, CA | (856) 577-9182 | mikeswoods@gmail.com
 Education
 =========
 
-Master of Science in Engineering,
-Computer and Information Science
+Master of Science in Engineering, Computer and Information Science
 University of Pennsylvania | Jan. 2012 -- May 2015
 
 * Coursework in machine learning, computer vision, physically-based rendering,
