@@ -1,7 +1,7 @@
 Michael Woods
 =============
 
-San Francisco, CA | (856) 577-9182 | mikeswoods@gmail.com
+mikeswoods at gmail
 
 Education
 =========
