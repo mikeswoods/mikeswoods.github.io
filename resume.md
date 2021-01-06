@@ -18,10 +18,40 @@ Rutgers, the State University of New Jersey | Jan. 2003 -- May 2007
 Work Experience
 ===============
 
+Blackfynn
+---------
+
+Philadelphia, PA
+
+Engineering Manager | June 2019 - Present
+
+- 80/20 time split between engineering and 1:1 career development meetings with
+  4 direct reports.
+
+- Designed and implemented a metadata graph/data modeling service in support of
+  the NIH Stimulating Peripheral Activity to Relieve Conditions (SPARC) program.
+
+- Conducted performance tuning and refactoring work on core services responsible
+  for file upload and metadata search, increasing request throughput and
+  decreasing response time.
+
+Senior Engineer | Nov. 2017 - June 2019
+
+- Individual contributor to the Blackfynn Research Data Management Platform
+  (RDMP), associated services, and developer tooling / documentation.
+
+- Project lead for the Blackfynn agent (written in Rust), a locally runnable
+  tool for interacting with the Data Management platform. Capabilities include:
+  simplifying bulk file upload to the platform; streaming and caching time-series
+  data for local consumers like the official Blackfynn Python and Matlab
+  libraries; performing data general data management operations through a
+  convenient CLI interface.
+
 Intrinsic
 ---------
 
 San Francisco, CA
+
 Software Engineer | Apr. 2016 -- Present
 
 - Core engineer for the design and implementation of Intrinsic's flagship
@@ -40,6 +70,7 @@ Yelp, Inc.
 ----------
 
 San Francisco, CA
+
 Software Engineer | Aug. 2015 -- Apr. 2016
 
 - Implemented core consumer features and bug fixes on the Yelp Android and iOS
@@ -59,6 +90,7 @@ Abramson Cancer Center, University of Pennsylvania
 --------------------------------------------------
 
 Philadelphia, PA
+
 Application Developer} | Nov. 2010 -- May 2015
 
 - Created the first iteration of the Abramson Cancer Center Applied Research
@@ -74,6 +106,7 @@ AmeriFlex
 ---------
 
 Mt. Laurel, NJ
+
 Software Developer | Apr. 2010 -- Nov. 2010
 
 - Created and maintained a number of in-house tools that automated many of the
@@ -101,10 +134,31 @@ Projects & Portfolio
 - [http://mikeswoods.github.io]
 - [https://www.linkedin.com/in/michael-woods-82696953]
 
-Professional Interests
-======================
+Proficiency in
+==============
 
-Python, C++, Haskell, Javascript (ES6), Purescript, functional programming,
-type systems, natural language processing, computer vision, raytracing,
-OpenGL shaders, procedural content generation, computational biology and
-simulation of biological systems.
+- Rust
+- Python
+- Java
+- Scala
+- Javascript
+
+
+Experience with
+===============
+
+- flow + Typescript
+- react
+- express
+- flask
+- MySQL
+- PostgreSQL
+- Neo4j
+- Redis
+- Hadoop
+- scikit-learn
+- pandas
+- git + Gerrit/GitHub
+- sqlalchemy
+- AWS
+
