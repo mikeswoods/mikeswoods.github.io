@@ -161,4 +161,6 @@ Experience with
 - git + Gerrit/GitHub
 - sqlalchemy
 - AWS
+- docker
+- terraform
 
